@@ -38,7 +38,7 @@ const Layout = ({children}) => {
             <Text
             fontFamily={'heading'}
             color={useColorModeValue('gray.800','white')}
-            >Logo</Text>
+            >E-commerce App</Text>
           </Flex>
           <Stack
           flex={{base: 1}}

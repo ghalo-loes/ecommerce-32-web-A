@@ -8,7 +8,7 @@ import {
   useColorModeValue
 } from '@chakra-ui/react'
 
-const Layout = () => {
+const Layout = ({children}) => {
   return (
     <div>
       <Head>
@@ -63,6 +63,7 @@ const Layout = () => {
           </Stack>
         </Flex>
       </Box>
+      {children} {/* Aqui se renderiza el contenido anidado */}
     </div>
   )
 }
